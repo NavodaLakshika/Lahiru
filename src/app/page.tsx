@@ -335,7 +335,7 @@ export default function InvitationPage() {
                   &
                 </span>
                 <br />
-                Shenali
+                Shasini
               </h1>
 
               <div className="h-[1px] w-12 bg-[#8b7355]/20 mx-auto" />
