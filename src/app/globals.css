@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fdfbf7;
+  --foreground: #2d2a26;
+  --gold-primary: #d4af37;
+  --gold-secondary: #f9e29c;
+  --gold-dark: #a67c00;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold-primary);
+  --color-gold-light: var(--gold-secondary);
+  --color-gold-dark: var(--gold-dark);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+}
+
+@layer utilities {
+  .gold-gradient {
+    background: radial-gradient(circle at 30% 30%, var(--gold-secondary) 0%, var(--gold-primary) 50%, var(--gold-dark) 100%);
+  }
+  
+  .card-shadow {
+    shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  }
+
+  .texture-bg {
+    background-image: url("https://www.transparenttextures.com/patterns/paper.png");
+  }
+}
