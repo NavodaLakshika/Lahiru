@@ -8,7 +8,7 @@ export default function Footer() {
       {/* Footer Image with Top Dissolve */}
       <div className="relative w-full h-[400px] md:h-[600px] overflow-hidden">
         <img 
-          src="/gallery/6.jpeg" 
+          src="/Gallery/6.jpeg" 
           className="w-full h-full object-cover object-center"
           alt="Footer Portrait"
         />

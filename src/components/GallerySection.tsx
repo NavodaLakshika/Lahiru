@@ -5,9 +5,9 @@ import { Play } from 'lucide-react';
 
 export default function GallerySection() {
   const images = [
-    '/gallery/1.jpeg',
-    '/gallery/2.jpeg',
-    '/gallery/3.jpeg',
+    '/Gallery/1.jpeg',
+    '/Gallery/2.jpeg',
+    '/Gallery/3.jpeg',
   ];
 
   return (

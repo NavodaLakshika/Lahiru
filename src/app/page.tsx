@@ -54,7 +54,7 @@ export default function InvitationPage() {
       {/* Background Audio */}
       <audio
         ref={audioRef}
-        src="/music/sahilmadan.mp3"
+        src="/Music/sahilmadan.mp3"
         loop
       />
 
@@ -110,7 +110,7 @@ export default function InvitationPage() {
           {/* Top Header Photo - Optimized Full Width Banner */}
           <section className="relative w-full h-[400px] md:h-[600px] overflow-hidden">
             <img
-              src="/gallery/25.jpeg"
+              src="/Gallery/25.jpeg"
               className="w-full h-full object-cover object-center"
               alt="Couples Header"
             />

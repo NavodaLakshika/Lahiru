@@ -14,7 +14,7 @@ export default function PhotoGrid() {
 
   const photos = Array.from({ length: totalPhotos }, (_, i) => ({
     id: i + 1,
-    url: `/gallery/${i + 1}.jpeg`,
+    url: `/Gallery/${i + 1}.jpeg`,
   }));
 
   const indexOfLastPhoto = currentPage * imagesPerPage;
