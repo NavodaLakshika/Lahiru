@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="absolute top-0 left-0 w-full h-[30%] bg-gradient-to-b from-[#fcf9f2] to-transparent opacity-100" />
         
         {/* Overlay Text */}
-        <div className="absolute inset-0 flex flex-col items-center justify-end pb-16 z-10">
+        <div className="absolute inset-0 flex flex-col items-center justify-end pb-20 z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

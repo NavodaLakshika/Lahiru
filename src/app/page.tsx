@@ -119,13 +119,13 @@ export default function InvitationPage() {
             <div className="absolute bottom-0 left-0 w-full h-[30%] bg-gradient-to-t from-[#fcf9f2] to-transparent opacity-100" />
 
             {/* Floating Timer over image */}
-            <div className="absolute bottom-16 left-0 w-full z-20">
+            <div className="absolute bottom-12 left-0 w-full z-20 ">
               <CountdownTimer isLight />
             </div>
           </section>
 
           {/* Content Container (Constrained Width with Padding) */}
-          <div className="max-w-3xl w-full space-y-8 text-center px-8 md:px-0 py-12">
+          <div className="max-w-3xl w-full space-y-8 text-center px-8 md:px-0 pt-4 pb-12">
             {/* Header Section (Parents) - Fade in instead of typewriter */}
             <section className="space-y-4 border-b border-[#8b7355]/10 pb-10 mt-[-10px]">
               <motion.p
@@ -302,7 +302,7 @@ export default function InvitationPage() {
 
           </div>
 
-          <div className="mt-[-150px]">
+          <div className="mt-[-250px]">
             <Footer />
           </div>
 

@@ -63,7 +63,7 @@ export default function CountdownTimer({ isLight = false }: { isLight?: boolean 
   );
 
   return (
-    <div className="w-full max-w-2xl mx-auto flex items-end justify-center gap-6 md:gap-8 py-8">
+    <div className="w-full max-w-2xl mx-auto flex items-end justify-center gap-6 md:gap-8 pt-8 pb-0">
       {/* Prefix Text */}
       <div className="flex flex-col items-end pb-1 pr-2 md:pr-4">
         <span 
